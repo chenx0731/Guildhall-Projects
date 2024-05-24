@@ -23,6 +23,8 @@ FeaturePacks/*
 Templates/*
 Engine/Documentation/*
 Temp/*
+.db
+.ipch
 
 # Engine intermediates
 Engine/Intermediate/*
