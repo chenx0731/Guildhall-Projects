@@ -1,4 +1,4 @@
-[Fluid Simulation - Chen Xu](https://www.chenoa.games/personal-project/fluid-simulation)
+[Fluid Simulation - Chen Xu](https://www.chenoa.site/personal-project/fluid-simulation)
 
 ---
 
