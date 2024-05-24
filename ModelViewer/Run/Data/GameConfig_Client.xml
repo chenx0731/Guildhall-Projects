@@ -1,0 +1,7 @@
+<GameConfig
+  netMode="Client"
+  netSendBufferSize="2048"
+  netRecvBufferSize="2048"
+	netHostAddress = "127.0.0.1:27015"
+/>
+

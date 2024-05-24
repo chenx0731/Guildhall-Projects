@@ -1,0 +1,6 @@
+<GameConfig
+	windowAspect="2.0"
+  netMode="None"
+  model="Data/Models/Cow.xml"
+/>
+

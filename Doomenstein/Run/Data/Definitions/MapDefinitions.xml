@@ -1,0 +1,60 @@
+<Definitions>
+  <MapDefinition name="TestMap" image="Data/Maps/Test01.png" shader="Data/Shaders/SpriteLit" level="3" spriteSheetTexture="Data/Images/Space_9x8new.png" spriteSheetCellCount="9,8">
+    <SpawnInfos>
+      <SpawnInfo actor="SpawnPoint" position="25.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="26.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="27.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="28.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="29.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint"  position="30.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="1.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="4.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="7.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="26.5,10.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="29.5,10.5,0.0" orientation="270.0,0.0,0.0" />
+	  <SpawnInfo actor="Elevator" faction="" position="16.5,16.99,0.5" orientation="90.0,0.0,0.0" />
+    </SpawnInfos>
+  </MapDefinition>
+  <MapDefinition name="MPMap" image="Data/Maps/MPMap1.png" shader="Data/Shaders/SpriteLit" level ="3" spriteSheetTexture="Data/Images/Space_9x8new.png" spriteSheetCellCount="9,8">
+    <SpawnInfos>
+      <SpawnInfo actor="Demon" faction="Demon" position="15.0,7.0,0.0"/>
+      <SpawnInfo actor="LostSoul" faction="Demon" position="20.0,15.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,1.5,0.0" orientation="45.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,30.5f,0.0" orientation="315.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="30.5,30.5,0.0" orientation="225.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="30.5,1.5,0.0" orientation="135.0,0.0,0.0" />
+	  <SpawnInfo actor="Planet" faction="" position="-15.0,7.0,0.0"/>
+		<SpawnInfo actor="Spaceback" faction="" position="-5.0,7.0,0.0"/>
+		<SpawnInfo actor="Spaceback" faction="" position="0.0,10.0,0.0"/>
+		<SpawnInfo actor="Spaceback" faction="" position="10.0,3.0,0.0"/>
+		<SpawnInfo actor="Elevator" faction="" position="16.5,16.99,0.5" orientation="90.0,0.0,0.0" />
+    </SpawnInfos>
+  </MapDefinition>
+	<MapDefinition name="Test01" image="Data/Maps/Test01.png" shader="Data/Shaders/SpriteLit" level ="0" spriteSheetTexture="Data/Images/Space_9x8new.png" spriteSheetCellCount="9,8">
+		<SpawnInfos>
+			<SpawnInfo actor="Demon" faction="Demon" position="15.0,9.0,0.0"/>
+			<SpawnInfo actor="LostSoul" faction="Demon" position="20.0,15.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" faction="Marine" position="8.5,8.5,0.0" orientation="45.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" faction="Marine" position="8.5,22.5f,0.0" orientation="315.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" faction="Marine" position="22.5,22.5,0.0" orientation="225.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" faction="Marine" position="22.5,1.5,0.0" orientation="135.0,0.0,0.0" />
+			<SpawnInfo actor="Elevator" faction="" position="16.5,16.99,0.5" orientation="90.0,0.0,0.0" />
+			<SpawnInfo actor="Planet" faction="" position="-15.0,7.0,0.0"/>
+			<SpawnInfo actor="Spaceback" faction="" position="-5.0,7.0,0.0"/>
+			<SpawnInfo actor="Spaceback" faction="" position="0.0,10.0,0.0"/>
+			<SpawnInfo actor="Spaceback" faction="" position="10.0,3.0,0.0"/>
+		</SpawnInfos>
+	</MapDefinition>
+	<MapDefinition name="Pipe01" image="Data/Maps/Pipe.png" shader="Data/Shaders/Sprite" level ="1" spriteSheetTexture="Data/Images/Space_9x8new.png" spriteSheetCellCount="9,8">
+		<SpawnInfos>
+			<SpawnInfo actor="Elevator" faction="" position="16.5,16.99,0.5" orientation="90.0,0.0,0.0" />
+		</SpawnInfos>
+	</MapDefinition>
+	<MapDefinition name="Pipe02" image="Data/Maps/Pipe.png" shader="Data/Shaders/Sprite" level ="2" spriteSheetTexture="Data/Images/Space_9x8new.png" spriteSheetCellCount="9,8">
+		<SpawnInfos>
+			<SpawnInfo actor="Elevator" faction="" position="16.5,16.99,0.5" orientation="90.0,0.0,0.0" />
+		</SpawnInfos>
+	</MapDefinition>
+
+</Definitions>
+

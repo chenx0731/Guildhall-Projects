@@ -1,0 +1,24 @@
+<Definitions>
+	<!--
+  <TileDefinition name="StoneFloor" isSolid="false" mapImagePixelColor="0,0,0" floorSpriteCoords="3,6" ceilingSpriteCoords="2,6"/>
+  <TileDefinition name="WoodFloor" isSolid="false" mapImagePixelColor="48,48,48" floorSpriteCoords="0,6" ceilingSpriteCoords="2,6"/>
+  <TileDefinition name="BrickWall" isSolid="true" mapImagePixelColor="255,255,255" wallSpriteCoords="0,5"/>
+  <TileDefinition name="WoodWall" isSolid="true" mapImagePixelColor="143,136,82" wallSpriteCoords="1,6"/>
+  <TileDefinition name="OpenGrass" isSolid="false" mapImagePixelColor="0,128,0" floorSpriteCoords="2,1" ceilingSpriteCoords="4,3"/>
+  <TileDefinition name="OpenDirt" isSolid="false" mapImagePixelColor="127,51,0" floorSpriteCoords="5,2" ceilingSpriteCoords="4,3"/>
+  <TileDefinition name="Transparent" isSolid="false" mapImagePixelColor="0,0,255" floorSpriteCoords="5,2" ceilingSpriteCoords="4,3"/>
+  <TileDefinition name="Elevator" isSolid="true" mapImagePixelColor="255,0,0"  wallSpriteCoords="5,6"/>
+  -->
+	<TileDefinition name="StoneFloor" isSolid="false" mapImagePixelColor="0,0,0" floorSpriteCoords="3,2" ceilingSpriteCoords="2,2"/>
+	<TileDefinition name="WoodFloor" isSolid="false" mapImagePixelColor="48,48,48" floorSpriteCoords="0,2" ceilingSpriteCoords="2,2"/>
+	<TileDefinition name="BrickWall" isSolid="true" mapImagePixelColor="255,255,255" wallSpriteCoords="0,3"/>
+	<TileDefinition name="WoodWall" isSolid="true" mapImagePixelColor="143,136,82" wallSpriteCoords="8,2"/>
+	<TileDefinition name="OpenGrass" isSolid="false" mapImagePixelColor="0,128,0" floorSpriteCoords="2,1" ceilingSpriteCoords="1,3"/>
+	<TileDefinition name="OpenDirt" isSolid="false" mapImagePixelColor="127,51,0" floorSpriteCoords="1,2" ceilingSpriteCoords="7,3"/>
+	<TileDefinition name="Transparent" isSolid="true" mapImagePixelColor="0,0,255" wallSpriteCoords="8,5" floorSpriteCoords="3,2" ceilingSpriteCoords="3,3"/>
+	<TileDefinition name="ElevatorOpen" isSolid="false" mapImagePixelColor="127,0,0" floorSpriteCoords="3,2" ceilingSpriteCoords="3,3"/>
+	<TileDefinition name="ElevatorClose" isSolid="false" mapImagePixelColor="0,127,0" floorSpriteCoords="3,2" ceilingSpriteCoords="3,3"/>
+	<TileDefinition name="Elevator" isSolid="true" mapImagePixelColor="255,0,0"  wallSpriteCoords="5,1"/>
+	<TileDefinition name="Null" isSolid="true" mapImagePixelColor="0,0,0,0" wallSpriteCoords="8,5" floorSpriteCoords="3,2" ceilingSpriteCoords="3,3"/>
+	<TileDefinition name="Pipe" isSolid="false" mapImagePixelColor="255,0,255" wallSpriteCoords="8,0"/>
+</Definitions>

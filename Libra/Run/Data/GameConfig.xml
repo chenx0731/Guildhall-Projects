@@ -1,0 +1,66 @@
+<GameConfig
+	maps="Approach,Courtyard,Tunnel,Fortress,Sanctum,TestZoo1"
+	screenSizeX="1600"
+	screenSizeY="800"
+	worldSizeX="16"
+	worldSizeY="8"
+	debugDrawLineThickness="0.03"
+	terrainSpriteHeight="8"
+	terrainSpriteWidth="8"
+	
+	playerDriveSpeed="2"
+	playerTurnRate="360"
+	playerGunTurnRate="720"
+	playerHealth="20"
+	
+	entityPhysicsRadius="0.3"
+	entityCosmeticRadius="0.5"
+	entityTextureRadius="0.5"
+	entityHealth="5"
+	
+	playerShootCooldownSeconds="0.1"
+	bulletBounceVarianceDegrees="10"
+	bulletTextureRadius="0.05"
+	playerBulletBouncingTimes="2"
+	
+	defaultBulletSpeed="3"
+	defaultBoltSpeed="6"
+	
+	scorpioPhysicsRadius="0.3"
+	scorpioCosmeticRadius="0.5"
+	scorpioTextureRadius="0.5"
+	scorpioTurnRate="30"
+	scorpioTurnAperture="10"
+	scorpioShootCooldownSeconds="0.3"
+	
+	enemyVisibleRange="10"
+	
+	leoDriveSpeed="0.5"
+	leoTurnRate="180"
+	leoPhysicsRadius="0.3"
+	leoCosmeticRadius="0.5"
+	leoTextureRadius="0.5"
+	leoDriveAperture="180"
+	leoShootAperture="10"
+	leoWanderRandomizePeriod="1.0"
+	leoShootCooldownSeconds="1.3"
+	
+	ariesDriveSpeed="0.5"
+	ariesPhysicsRadius="0.3"
+	ariesCosmeticRadius="0.5"
+	ariesTextureRadius="0.5"
+	ariesTurnRate="180"
+	ariesDriveAperture="90"
+	ariesWanderRandomizePeriod="1.0"
+	
+	capricornDriveSpeed="0.5"
+	capricornTurnRate="180"
+	capricornCanSwim="true"
+	
+	perishFadeoutSeconds="3.0"
+	startAreaSize="5"
+	endAreaSize="6"
+/>
+
+
+

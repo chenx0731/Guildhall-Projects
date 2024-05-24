@@ -1,0 +1,60 @@
+<ShaderDefinitions>
+    <ShaderDefinition name="GlitchRGBSplit" shader="Data/Shaders/Engine/GlitchRGBSplit">
+        <Channels>
+            <Channel name="Fade" min="0" max="1" default="1" speed="0.0099999998" visible="false"/>
+            <Channel name="Speed" min="1" max="100" default="30" speed="0.0099999998" visible="true"/>
+            <Channel name="Amount" min="1" max="10" default="1" speed="1" visible="false"/>
+            <Channel name="CenterFading" min="0" max="1" default="1" speed="0.0099999998" visible="false"/>
+            <Channel name="AmountR" min="1" max="10" default="5" speed="1" visible="true"/>
+            <Channel name="AmountB" min="1" max="10" default="7" speed="1" visible="true"/>
+        </Channels>
+    </ShaderDefinition>
+    <ShaderDefinition name="GlitchAnalogNoise" shader="Data/Shaders/Engine/GlitchAnalogNoise">
+        <Channels>
+            <Channel name="Fade" min="0" max="1" default="1" speed="0.0099999998" visible="false"/>
+            <Channel name="Speed" min="1" max="100" default="30" speed="2" visible="true"/>
+            <Channel name="LuminanceJitterThreshold" min="0" max="1" default="0.59500003" speed="0.001" visible="true"/>
+        </Channels>
+    </ShaderDefinition>
+    <ShaderDefinition name="Kuwahara" shader="Data/Shaders/Engine/Kuwahara">
+        <Channels>
+            <Channel name="Fade" min="0" max="0" default="1" speed="0" visible="false"/>
+            <Channel name="Speed" min="0" max="0" default="10" speed="0" visible="false"/>
+            <Channel name="BlurRadiusX" min="1" max="10" default="1" speed="1" visible="true"/>
+            <Channel name="BlurRadiusY" min="1" max="10" default="1" speed="1" visible="true"/>
+        </Channels>
+    </ShaderDefinition>
+    <ShaderDefinition name="PixelizeHexagonGrid" shader="Data/Shaders/Engine/PixelizeHexagonGrid">
+        <Channels>
+            <Channel name="Fade" min="0" max="1" default="1" speed="0.0099999998" visible="false"/>
+            <Channel name="Speed" min="1" max="100" default="30" speed="2" visible="false"/>
+            <Channel name="PixelSize" min="0" max="10" default="0.029999999" speed="0.0099999998" visible="true"/>
+            <Channel name="GridSize" min="1" max="200" default="1.5" speed="0.5" visible="true"/>
+        </Channels>
+    </ShaderDefinition>
+    <ShaderDefinition name="GlitchImageBlock" shader="Data/Shaders/Engine/GlitchImageBlock">
+        <Channels>
+            <Channel name="Fade" min="0" max="1" default="1" speed="0.0099999998" visible="false"/>
+            <Channel name="Speed" min="1" max="100" default="18.91" speed="0.0099999998" visible="true"/>
+            <Channel name="Seed" min="1" max="100" default="27" speed="1" visible="false"/>
+            <Channel name="Offset" min="0" max="100" default="4" speed="2" visible="true"/>
+            <Channel name="BlockLayer1U" min="0" max="100" default="20" speed="1" visible="true"/>
+            <Channel name="BlockLayer1V" min="0" max="100" default="50" speed="1" visible="true"/>
+            <Channel name="BlockLayer2V" min="0" max="100" default="30" speed="1" visible="true"/>
+            <Channel name="BlockLayer2V" min="0" max="100" default="70" speed="1" visible="true"/>
+            <Channel name="BlockLayer1Intensity" min="0" max="100" default="10" speed="1" visible="true"/>
+            <Channel name="BlockLayer2Intensity" min="0" max="100" default="10" speed="1" visible="true"/>
+            <Channel name="BlockSplitIntensity" min="0" max="100" default="5" speed="1" visible="true"/>
+        </Channels>
+    </ShaderDefinition>
+    <ShaderDefinition name="PixelizeLeaf" shader="Data/Shaders/Engine/PixelizeLeaf">
+        <Channels>
+            <Channel name="Fade" min="0" max="1" default="1" speed="0.0099999998" visible="false"/>
+            <Channel name="Speed" min="1" max="100" default="30" speed="2" visible="false"/>
+            <Channel name="PixelScaleX" min="0" max="10" default="0.80000001" speed="0.1" visible="true"/>
+            <Channel name="PixelScaleY" min="0" max="10" default="0.80000001" speed="0.1" visible="true"/>
+            <Channel name="PixelSize" min="1" max="200" default="100" speed="1" visible="true"/>
+            <Channel name="PixelRatio" min="1" max="200" default="2" speed="1" visible="true"/>
+        </Channels>
+    </ShaderDefinition>
+</ShaderDefinitions>

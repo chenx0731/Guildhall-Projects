@@ -1,0 +1,44 @@
+<Definitions>
+
+	<!-- Planet -->
+	<ActorDefinition name="Jupiter" canBePossessed="false" corpseLifetime="0.4" visible="true" dieOnSpawn="false" >
+		<Visuals size="5,5" pivot="0.5,0.5" billboardType="FullOpposing" renderLit="true" renderRounded="false" shader="Data/Shaders/Sprite" spriteSheet="Data/Images/Planet.png" cellCount="50,1">
+			<AnimationGroup name="Walk" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="1,0,0">
+					<Animation startFrame="0" endFrame="49"/>
+				</Direction>
+			</AnimationGroup>
+		</Visuals>
+	</ActorDefinition>
+
+	<ActorDefinition name="Earth" canBePossessed="false" corpseLifetime="0.4" visible="true" dieOnSpawn="false" >
+		<Visuals size="2.5,2.5" pivot="0.5,0.5" billboardType="FullOpposing" renderLit="true" renderRounded="false" shader="Data/Shaders/Sprite" spriteSheet="Data/Images/Earth.png" cellCount="50,1">
+			<AnimationGroup name="Walk" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="1,0,0">
+					<Animation startFrame="0" endFrame="49"/>
+				</Direction>
+			</AnimationGroup>
+		</Visuals>
+	</ActorDefinition>
+
+	<ActorDefinition name="Sun" canBePossessed="false" corpseLifetime="0.4" visible="true" dieOnSpawn="false" >
+		<Visuals size="10,10" pivot="0.5,0.5" billboardType="FullOpposing" renderLit="true" renderRounded="false" shader="Data/Shaders/Sprite" spriteSheet="Data/Images/Sun.png" cellCount="50,1">
+			<AnimationGroup name="Walk" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="1,0,0">
+					<Animation startFrame="0" endFrame="49"/>
+				</Direction>
+			</AnimationGroup>
+		</Visuals>
+	</ActorDefinition>
+
+	<ActorDefinition name="Galaxy" canBePossessed="false" corpseLifetime="0.4" visible="true" dieOnSpawn="false" >
+		<Visuals size="15,15" pivot="0.5,0.5" billboardType="FullOpposing" renderLit="true" renderRounded="false" shader="Data/Shaders/Sprite" spriteSheet="Data/Images/Galaxy.png" cellCount="50,1">
+			<AnimationGroup name="Walk" secondsPerFrame="0.1" playbackMode="Loop">
+				<Direction vector="1,0,0">
+					<Animation startFrame="0" endFrame="49"/>
+				</Direction>
+			</AnimationGroup>
+		</Visuals>
+	</ActorDefinition>
+
+</Definitions>

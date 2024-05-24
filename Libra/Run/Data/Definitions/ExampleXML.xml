@@ -1,0 +1,16 @@
+<MapDefinitions>
+	<MapDefinition name="Courtyard" layout="20,30">
+		<Enemies>
+			<Enemy type="Scorpio" pos="3,7" orientDegrees="45">
+			</Enemy>
+			<Enemy type="Scorpio" pos="2,7" orientDegrees="45">
+			</Enemy>
+			<Enemy type="Scorpio" pos="3,9" orientDegrees="45"/>
+			<Enemy type="Scorpio" pos="3,9" orientDegrees="45"/>
+			<Enemy type="Scorpio" pos="3,9" orientDegrees="45"/>
+			<Enemy type="Leo" pos="3,9" orientDegrees="45"/>
+		</Enemies>
+		<Powerups>
+		</Powerups>
+	</MapDefinition>
+</MapDefinitions>

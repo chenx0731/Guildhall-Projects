@@ -1,0 +1,22 @@
+<GameConfig
+	autoCreateChunks="false"
+	chunkActivationDistance="250"
+	loadSavedChunks="false"
+	saveModifiedChunks="false"
+	worldSecondsPerRealSecond="200"
+	debugStepLightPropagation="false"
+	debugDrawLightMarkers="false"
+	debugUseWhiteBlocks="false"
+	debugDisableFog="true"
+	debugDisableSky="true"
+	debugDisablePerlinNoise="true"
+	debugDisableHSR="true"
+	debugDisableGlowstone="true"
+	debugDisableWorldShader="true"
+	nightSkyColor="20,20,40"
+	daySkyColor="200,230,255"
+	nightOutdoorLightColor="20,20,40"
+	dayOutdoorLightColor="255,255,255"
+	indoorLightColor="255,230,200"
+	/>
+

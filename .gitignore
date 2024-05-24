@@ -1,8 +1,10 @@
 Saved/
 LocalBuilds/
 Temporary/
+*_Debug_x64.exe
 *.csproj.*
 .vs/*
+.vs/
 *.pdb
 *.suo
 *.opensdf

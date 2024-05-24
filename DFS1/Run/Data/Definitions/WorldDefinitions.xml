@@ -1,0 +1,18 @@
+<Definitions>
+	<WorldDefinition name="Earth" gravity="10" isHasElevator="false">
+		<Maps>
+			<Map name="FloorE" level="0"/>
+			<Map name="WallE" level="1"/>
+			<Map name="CeilingE" level="2"/>
+		</Maps>
+	</WorldDefinition>
+	<WorldDefinition name="Saturn" gravity="20" isHasElevator="true">
+		<Maps>
+			<Map name="TestMap" level="0"/>
+			<Map name="Pipe01" level="1"/>
+			<Map name="Pipe02" level="2"/>
+			<Map name="Test01" level="3"/>
+		</Maps>
+	</WorldDefinition>
+</Definitions>
+

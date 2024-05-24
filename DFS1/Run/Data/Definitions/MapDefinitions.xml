@@ -1,0 +1,160 @@
+<Definitions>
+
+	<MapDefinition name="Earth" voxelDef="Data/Maps/TestMap (3).3dsprite" gravity="15" shader="Data/Shaders/SpriteLit" spriteSheetTexture="Data/Images/Space_9x8new.png" spriteSheetCellCount="9,8" lightColor="100,100,255">
+		<VoxelDefs>
+			<!--
+			<VoxelDef source="Data/Maps/TestMap (4).3dsprite" offset="0,0,0">
+				<SpawnInfos>
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,1.5,-2.0" orientation="45.0,0.0,0.0" />
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,4.5,-2.0" orientation="315.0,0.0,0.0" />
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="4.5,1.5,-2.0" orientation="225.0,0.0,0.0" />
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="4.5,1.5,-2.0" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Elevator" faction="" position="1.5,5.99,0.5" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0,-1,-1.8" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0.71,-0.71,-1.6" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="1,0,-1.4" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0.71,0.71,-1.2" orientation="45.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0,1,-1" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="-0.71,0.71,-0.8" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="-1,0,-0.6" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="-0.71,-0.71,-0.4" orientation="45.0,0.0,0.0" />
+					<SpawnInfo actor="DogBlock" faction="" position="1.5,2.5,-2.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="2.5,2.5,-2.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-2.5,-0.5,-2.199" orientation="-90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-2.5,-0.5,-0.001" orientation="-90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-2.5,-1.5,-2.199" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-2.5,-1.5,-0.001" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-1.5,-0.5,-2.199" orientation="180.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-1.5,-0.5,-0.001" orientation="180.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-1.5,-1.5,-2.199" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-1.5,-1.5,-0.001" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="PipeBlock" faction="" position="-2,-1,-0.0" orientation="90.0,0.0,0.0" />
+				</SpawnInfos>
+			</VoxelDef>
+			<VoxelDef source="Data/Maps/TestMap (3).3dsprite" offset="16,0,0">
+				<SpawnInfos>
+					<SpawnInfo actor="Elevator" faction="" position="1.5,5.99,0.5" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0,-1,-1.8" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0.71,-0.71,-1.6" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="1,0,-1.4" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0.71,0.71,-1.2" orientation="45.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0,1,-1" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="-0.71,0.71,-0.8" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="-1,0,-0.6" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="-0.71,-0.71,-0.4" orientation="45.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="2.5,2.5,0.0" orientation="90.0,0.0,0.0" />
+				</SpawnInfos>
+			</VoxelDef>
+			-->
+			<VoxelDef source="Data/Maps/QuakeLeft.3dsprite" offset="0,0,0">
+				<SpawnInfos>
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="7.5,-1.0,3.0" orientation="45.0,0.0,0.0" />
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="8.0,-2.5,3.0" orientation="315.0,0.0,0.0" />
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="6.5,-1.5,3.0" orientation="225.0,0.0,0.0" />
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="5.5,-4.5,3.0" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Elevator" faction="" position="9,-4,2" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Elevator" faction="" position="8,-5,6" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="Elevator" faction="" position="10,-5,6" orientation="180.0,0.0,0.0" />
+			
+
+					<SpawnInfo actor="Demon" faction="Demon" position="5.5,-2,3.0" orientation="180.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="6.5,-1,3.0" orientation="180.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="4.5,-4,3.0" orientation="180.0,0.0,0.0" />
+
+
+					<SpawnInfo actor="Demon" faction="Demon" position="11.5,-2,3.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="10.5,-1,3.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="12.5,-4,3.0" orientation="90.0,0.0,0.0" />
+					
+					
+					<SpawnInfo actor="DogBlock" faction="" position="9,-2,10.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="DogGlassBlockX" faction="" position="9,-2,8.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="8.5,-4.5,0.801" orientation="-90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="8.5,-4.5,2.999" orientation="-90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="8.5,-5.5,0.801" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="8.5,-5.5,2.999" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="9.5,-4.5,0.801" orientation="180.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="9.5,-4.5,2.999" orientation="180.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="9.5,-5.5,0.801" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="9.5,-5.5,2.999" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorCollisionBlockY" faction="" position="10,-5,1" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorCollisionBlockY" faction="" position="8,-5,1" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="TElevatorCollisionBlockY" faction="" position="10,-5,3" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="TElevatorCollisionBlockY" faction="" position="8,-5,3" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorCollisionBlockX" faction="" position="9,-6,1" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorCollisionBlockX" faction="" position="9,-6,3" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorCollisionBlockX" faction="" position="9,-6,5" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorGlassBlockX" faction="" position="9,-4,5" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="TElevatorCollisionBlockX" faction="" position="9,-4,3" orientation="0.0,0.0,0.0" />
+
+					<SpawnInfo actor="Block" faction="" position="7.5,-5,4.8" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="6.5,-5,4.4" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="5.5,-5,4.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="4.5,-5,3.6" orientation="90.0,0.0,0.0" />
+
+	
+					<SpawnInfo actor="Block" faction="" position="14.5,-3.5,2.4" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="13.5,-3.5,2.8" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="13.5,-4.5,3.2" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="13.5,-5.5,3.6" orientation="90.0,0.0,0.0" />
+					
+					<SpawnInfo actor="Skybox" faction="" position="0.0,0.0,-20.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Earth" faction="" position="9.0,35.0,6.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="DogGlassBlockX" faction="" position="9,13,3.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="ShipBlock" faction="" position="9,13,4.0" orientation="-90.0,0.0,0.0" />
+
+					<SpawnInfo actor="JumpBlock" faction="" position="1.5,-2,4" orientation="-45.0,0.0,0.0" />
+					<SpawnInfo actor="JumpBlock" faction="" position="16.5,-2,4" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="" position="17.5,-1.5,4" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="" position="1.5,-0.5,4" orientation="135.0,0.0,0.0" />
+
+					<SpawnInfo actor="JumpBlock" faction="" position="9.5,0,1" orientation="-45.0,0.0,0.0" />
+					<SpawnInfo actor="JumpBlock" faction="" position="8.5,0,1" orientation="135.0,0.0,0.0" />
+					
+					<SpawnInfo actor="PipeBlock" faction="" position="9,-5,3.0" orientation="90.0,0.0,0.0" />
+				</SpawnInfos>
+			</VoxelDef>
+			<VoxelDef source="Data/Maps/QuakeRight.3dsprite" offset="16,0,0">
+			</VoxelDef>
+		</VoxelDefs>
+	</MapDefinition>
+	<MapDefinition name="Saturn" voxelDef="Data/Maps/TestMap (2).3dsprite" gravity="30" shader="Data/Shaders/SpriteLit" spriteSheetTexture="Data/Images/Space_9x8new.png" spriteSheetCellCount="9,8" lightColor="50,50,0">
+		<VoxelDefs>
+			<VoxelDef source="Data/Maps/TestMap (4).3dsprite" offset="0,0,0">
+				<SpawnInfos>
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,1.5,-2.0" orientation="45.0,0.0,0.0" />
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,4.5,-2.0" orientation="315.0,0.0,0.0" />
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="4.5,1.5,-2.0" orientation="225.0,0.0,0.0" />
+					<SpawnInfo actor="SpawnPoint" faction="Marine" position="4.5,1.5,-2.0" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Elevator" faction="" position="1.5,5.99,1" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0,-1,-1.8" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0.71,-0.71,-1.6" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="1,0,-1.4" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0.71,0.71,-1.2" orientation="45.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="0,1,-1" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="-0.71,0.71,-0.8" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="-1,0,-0.6" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Block" faction="" position="-0.71,-0.71,-0.4" orientation="45.0,0.0,0.0" />
+					<SpawnInfo actor="DogBlock" faction="" position="1.5,2.5,-2.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="2.5,2.5,-2.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="2.5,2.5,2.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="6.5,2.5,2.0" orientation="135.0,0.0,0.0" />
+					<SpawnInfo actor="Demon" faction="Demon" position="2.5,6.5,2.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-2.5,-0.5,-2.199" orientation="-90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-2.5,-0.5,-0.001" orientation="-90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-2.5,-1.5,-2.199" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-2.5,-1.5,-0.001" orientation="0.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-1.5,-0.5,-2.199" orientation="180.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-1.5,-0.5,-0.001" orientation="180.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-1.5,-1.5,-2.199" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="ElevatorBlock" faction="" position="-1.5,-1.5,-0.001" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="PipeBlock" faction="" position="-2,-1,-0.0" orientation="90.0,0.0,0.0" />
+					<SpawnInfo actor="Skybox" faction="" position="0.0,0.0,-20.0" orientation="90.0,0.0,0.0" />
+				</SpawnInfos>
+			</VoxelDef>
+		</VoxelDefs>
+	
+	</MapDefinition>
+	
+</Definitions>
+

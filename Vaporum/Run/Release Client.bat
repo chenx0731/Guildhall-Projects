@@ -1,0 +1,1 @@
+Vaporum_Release_x64 Data/GameConfig_Client.xml
